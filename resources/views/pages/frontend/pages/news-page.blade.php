@@ -47,7 +47,7 @@
 
     <!-- LATEST NEWS -->
     <div class="latest-news">
-        <h1>Berita <span>terbaru</span></h1>
+        <h1><span>Berita</span>Terbaru</h1>
         <div class="news-bottom">
             <!-- NEWS CARD 1 -->
             @foreach ($news as $row)
