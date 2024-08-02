@@ -26,25 +26,7 @@
     <!-- END HEADER -->
 
     <!-- CONTENT START -->
-    @foreach ($psb as $row)
-    <div class="content">
-      <img src="{{ $row->image }}" alt="Image Psb"/>
-      <div class="overlay"></div>
-      <div class="content-text">
-          <div class="content-top">
-              <h1>{{ $row->title }}</h1>
-              <p>
-                  {!! Str::words($row->description, '5') !!}
-              </p>
-          </div>
-          <div class="btn btn-primary">
-            <a href="{{ url($row->file) }}" target="_blank" class="btn btn-primary btn-sm">
-              Baca Panduan Pendaftaran disini</a>
-              </a>
-          </div>
-      </div>
-  </div>
-    @endforeach
+    
     <!-- CONTENT END -->
 
     <!-- FOOTER  -->
