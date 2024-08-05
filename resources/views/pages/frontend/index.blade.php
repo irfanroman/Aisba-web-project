@@ -240,12 +240,12 @@
     <div class="promosi">
         <img src="{{ asset('frontend/assets/image/hero_bg.png') }}" alt="" />
         <div class="promosi-page">
-            <h1>Wujudkan Impian Menjadi Hafidz Qur'an yang Berprestasi!</h1>
+            <h1>Wujudkan Impian Menjadi anak yang Berprestasi!</h1>
             <p>
-                Tunggu apalagi? Yuk segera gabung! Raih Kesempatanmu Menjadi Hafidz
-                Qur'an Berprestasi Bersama Pondok Baitul Quran Al Jahra!
+                Tunggu apalagi? Yuk segera gabung! Raih Kesempatanmu Menjadi siswa
+                Berprestasi Bersama Al Imam Islamic School!
             </p>
-            <a href="">Daftar Sekarang</a>
+            <a href="{{ route('psb') }}">Daftar Sekarang</a>
         </div>
     </div>
     <!-- PROMOSI END -->

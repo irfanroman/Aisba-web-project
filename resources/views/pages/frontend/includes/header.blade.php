@@ -61,7 +61,7 @@
         <h1>Al-Imam Islamic School</h1>
         <p><span>Shalih, Smart, and Future Leader</span></p>
 
-        <a href="/pages/psb-page.html">
+        <a href="{{ route('psb') }}">
           Daftar Sekarang
           <i class="material-icons">arrow_forward_ios</i>
         </a>

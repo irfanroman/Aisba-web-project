@@ -157,8 +157,8 @@ header {
 
   .hero {
     position: absolute;
-    top: 400px !important;
-    left: 50px !important;
+    top: 350px !important;
+    left: 100px !important;
     right: auto;
     bottom: auto;
     z-index: 1;
@@ -173,7 +173,7 @@ header {
 
   .hero p {
     font-weight: 400;
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .hero a {
@@ -190,7 +190,7 @@ header {
     gap: 10px;
     border: 2px solid white;
     cursor: pointer;
-    margin-top: 72px;
+    margin-top: 40px;
     line-height: 0%;
     transition: all 0.3s;
     text-decoration: none;

@@ -6,11 +6,8 @@
           <h1>Al Imam Islamic School</h1>
         </div>
         <p>
-          <span> Pesantren Baitul Quran Al Jahra </span> adalah lembaga
-          pendidikan Islam yang berfokus pada tahfidz Al-Quran dan
-          pengembangan karakter santri. Berdiri sejak tahun 2009, kami
-          berkomitmen untuk melahirkan generasi Qur'ani yang berprestasi dan
-          berakhlak mulia.
+          <span> Al Imam Islamic School Balikpapan</span>
+          diakronimkan AISBA. Kata inilah yang selama ini populer digunakan baik oleh guru, siswa, maupun orangtua. AISBA berada di bawah naungan Yayasan Al-Imam Madinatul Iman (YAMI) Balikpapan. Tahun 2024 ini usianya kini genap satu dekade.
         </p>
         <div class="footer-email">
           <i class="material-icons">mail</i>
@@ -38,24 +35,23 @@
         <div class="footer-registration">
           <h3>Pendaftaran</h3>
           <a href="{{ route('psb') }}"> PSB </a>
-          <a href="/pages/karir-page.html"> Karir </a>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
       <div class="footer-social-media">
-        <a href="">
+        <a href="https://www.instagram.com/aisba.balikpapan/" target="_blank">
           <img src="{{ asset('frontend/assets/icon/instagram_icon.svg') }}" alt="Instagram" />
         </a>
-        <a href="">
+        <a href="https://www.youtube.com/channel/UChaulsX2nWktFk5yrM_dKLw" target="_blank">
           <img src="{{ asset('frontend/assets/icon/youtube_icon.svg') }}" alt="Youtube" />
         </a>
-        <a href="">
+        <a href="https://web.facebook.com/aisbabalikpapan" target="_blank">
           <img src="{{ asset('frontend/assets/icon/facebook_icon.svg') }}" alt="Facebook" />
         </a>
-        <a href="">
+        {{-- <a href="">
           <img src="{{ asset('frontend/assets/icon/whatsapp_icon.svg') }}" alt="Whatsapp" />
-        </a>
+        </a> --}}
       </div>
       <p>Copyright &copy; 2024 Al-Imam Islamic School</p>
     </div>
