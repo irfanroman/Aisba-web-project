@@ -41,16 +41,15 @@
               <a href="{{ route('visiMisi') }}">Visi Misi Pesantren</a>
             </div>
           </div>
-          <!-- <div class="dropdown">
+          <div class="dropdown">
             <button>
               Registration
               <i class="material-icons">arrow_drop_down</i>
             </button>
             <div class="dropdown-content">
-              <a href="/pages/psb-page.html">PSB</a>
-              <a href="/pages/karir-page.html">Karir</a>
+              <a href="{{ route('psb') }}">PSB</a>
             </div>
-          </div> -->
+          </div> 
           <a class="contact" href="#footer">Contact</a>
         </div>
       </div>

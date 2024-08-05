@@ -189,7 +189,7 @@
   align-items: center;
   text-align: center;
   gap: 50px;
-  background-color: #242424;
+  background-color: #649814;
 }
 
 .alumni-title {
@@ -242,7 +242,7 @@
   box-shadow: 0 0px 10px #000000;
   border: none;
   border-radius: 10px;
-  display: flex;
+  display: grid;
   flex-direction: column;
   justify-content: start;
   align-items: start;
@@ -256,6 +256,12 @@
 .alumni-card-item:hover {
   /* box-shadow: 20px 20px 0 #323270; */
   background-color: rgba(255, 255, 255, 0.85);
+  transform: scale(1.04);
+  transition: all 0.3s;
+}
+
+.alumni-card-item-transisition:hover {
+  transform: scale(1.04);
 }
 
 .alumni-card-item-text {
@@ -503,7 +509,7 @@ iframe {
 .map {
   display: flex;
   flex-direction: column;
-  background-color: #000000;
+  background-color: #649814;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -516,7 +522,7 @@ iframe {
   flex-direction: column;
   padding: 20px;
   color: white;
-  background-color: #3c4b4e;
+  background-color: #252525;
   gap: 10px;
   transition: all 0.3s;
 }
@@ -881,6 +887,15 @@ iframe {
 
   .alumni-title h1 {
     font-size: 40px;
+  }
+
+  .alumni-card-item{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
   }
 
   /* END ALUMNI */

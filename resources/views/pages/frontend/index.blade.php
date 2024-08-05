@@ -10,10 +10,11 @@
             <p>
                 <span> Al Imam Islamic School </span> adalah lembaga
                 Al-Imam Islamic School Balikpapan lebih dikenal dengan sebutan AISBA.
-                Berada di bawah naungan Yayasan Al-Imam Madinatul Iman. 
+                Berada di bawah naungan Yayasan Al-Imam Madinatul Iman.
                 Yayasan ini dirikan oleh Bapak Ir. H. Muhammad Utama Jaya.
-                AISBA didirikan sejak tahun 2014 dengan dua jenjang: SD dan SMP. 
-                Kini AISBA sudah punya jenjang dari Daycare, TK, SD, SMP, hingga SMA berlokasi di Bukit Cinta Damai, Balikpapan Kota.
+                AISBA didirikan sejak tahun 2014 dengan dua jenjang: SD dan SMP.
+                Kini AISBA sudah punya jenjang dari Daycare, TK, SD, SMP, hingga SMA berlokasi di Bukit Cinta Damai,
+                Balikpapan Kota.
             </p>
             <a href="{{ route('about') }}">
                 Selengkapnya
@@ -74,7 +75,7 @@
             <h1>Apa kata <span>Alumni?</span></h1>
             <p>
                 Review Testimoni dari para alumni yang telah menyelesaikan
-                pendidikannya di Pesantren Baitul Quran Al Jahra
+                pendidikannya di Al-Imam Islamic School
             </p>
         </div>
         <div class="alumni-card">
@@ -83,15 +84,21 @@
                 <div class="alumni-card-item-text">
                     <img src="{{ asset('frontend/assets/icon/quote_icon.svg') }}" />
                     <p>
-                        Pondok keren sangat antusias menerima anak, semoga bagus terus
-                        kedepannya. hehe. Pondok keren sangat antusias menerima anak.
+                        Saya senang dengan proses pembelajaran di SD-SMP AISBa: interaktif, tidak membosankan dan seperti
+                        belajar di luar kelas. Sekolah juga memberikan saya kesempatan untuk mengukir prestasi dengan
+                        mengikuti berbagai perlombaan. <br><br>
+
+                        Di AISBa juga tidak hanya belajar pelajaran umum dan bahasa asing, tapi juga tahfidz al-Qur’an, dan
+                        agama. Meski full-day school, suasana kepesantrenan dan persaudaraan sangat terasa. Pokoknya
+                        komplit. Bekal penting bagi saya untuk menapaki cita-cita selanjutnya.
+
                     </p>
                 </div>
                 <div class="alumni-card-item-profile">
                     <img src="{{ asset('frontend/assets/icon/quote_icon.svg') }}" />
                     <div class="alumni-card-item-author">
-                        <h6>Jamal Jamaludin</h6>
-                        <p>Alumni Ke-99</p>
+                        <h6>Ashilah Hanifah Huwaidah</h6>
+                        <p>Alumni SMP AISBa Tahun 2019. Mahasiswi Universitas Gadjah Mada Fakultas Psikologi</p>
                     </div>
                 </div>
             </div>
@@ -100,15 +107,22 @@
                 <div class="alumni-card-item-text">
                     <img src="{{ asset('frontend/assets/icon/quote_icon.svg') }}" />
                     <p>
-                        Pondok keren sangat antusias menerima anak, semoga bagus terus
-                        kedepannya. hehe. Pondok keren sangat antusias menerima anak.
+                        Don't judge a book by its cover."Istilah ini berlaku buat saya. Awalnya, saya skeptis terhadap AISBa
+                        karena dulu berada di ruko. Kira-kira apa bisa efektif, yah? Namun, akhirnya terjawab. Masya-Allah.
+                        Ternyata, para alumninya diterima di berbagai pesantren besar di Jawa. <br><br>
+
+                        Hingga tahun ke-3 ini, proses belajar putra saya di SMP AISBa juga berjalan baik. AISBa punya banyak
+                        kegiatan menarik. Salah satunya Examination Authority (EXOT). Asesmen ini untuk menguji kemampuan
+                        anak. Alhamdulillah, anak saya bisa menjawabnya.
+
                     </p>
                 </div>
                 <div class="alumni-card-item-profile">
                     <img src="{{ asset('frontend/assets/icon/quote_icon.svg') }}" />
                     <div class="alumni-card-item-author">
-                        <h6>Jamal Jamaludin</h6>
-                        <p>Alumni Ke-99</p>
+                        <h6>Bunda Rosiana Dharyanti</h6>
+                        <p>Alumni SMP AISBa 2024 dan peraih Heat Round Hong Kong International Mathematical Olympiad 2023
+                        </p>
                     </div>
                 </div>
             </div>
@@ -117,32 +131,18 @@
                 <div class="alumni-card-item-text">
                     <img src="{{ asset('frontend/assets/icon/quote_icon.svg') }}" />
                     <p>
-                        Pondok keren sangat antusias menerima anak, semoga bagus terus
-                        kedepannya. hehe. Pondok keren sangat antusias menerima anak.
+                        Orangtua harus selektif memilih sekolah. Setidaknya harus sesuai visi-misi orangtua.
+                        Alhamdulillah, SD AISBa pilihan terbaik dari berbagai sekolah Islam yang ada.
+                        Dua anak kami dapat pelajaran tidak hanya umum, tapi juga agama: aqidah, fiqih, tahsin, tahfidz,
+                        dan arabic dengan porsi waktu cukup banyak. Para ustaz dan ustazah selalu meng-upgrade skill dan
+                        open mindend hingga membuat kami sebagai orangtua makin percaya.
                     </p>
                 </div>
                 <div class="alumni-card-item-profile">
                     <img src="{{ asset('frontend/assets/icon/quote_icon.svg') }}" />
                     <div class="alumni-card-item-author">
-                        <h6>Jamal Jamaludin</h6>
-                        <p>Alumni Ke-99</p>
-                    </div>
-                </div>
-            </div>
-            <!-- ALUMNI CARD 4 -->
-            <div class="alumni-card-item">
-                <div class="alumni-card-item-text">
-                    <img src="{{ asset('frontend/assets/icon/quote_icon.svg') }}" />
-                    <p>
-                        Pondok keren sangat antusias menerima anak, semoga bagus terus
-                        kedepannya. hehe. Pondok keren sangat antusias menerima anak.
-                    </p>
-                </div>
-                <div class="alumni-card-item-profile">
-                    <img src="{{ asset('frontend/assets/icon/quote_icon.svg') }}" />
-                    <div class="alumni-card-item-author">
-                        <h6>Jamal Jamaludin</h6>
-                        <p>Alumni Ke-99</p>
+                        <h6>Bunda Arlina Devinta Widhyasti, Orangtua Aisyah El-Rubi Alexandria</h6>
+                        <p>Alumni Kelas 6Pi</p>
                     </div>
                 </div>
             </div>
@@ -217,7 +217,9 @@
 
     <!-- MAP -->
     <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.858024008014!2d116.85473837583378!3d-1.2571074987309219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df147f3b5dd05e5%3A0x223d24afe4a964c4!2sAL%20IMAM%20ISLAMIC%20SCHOOL%20BALIKPAPAN!5e0!3m2!1sen!2sid!4v1722401420264!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></src=>
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.858024008014!2d116.85473837583378!3d-1.2571074987309219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df147f3b5dd05e5%3A0x223d24afe4a964c4!2sAL%20IMAM%20ISLAMIC%20SCHOOL%20BALIKPAPAN!5e0!3m2!1sen!2sid!4v1722401420264!5m2!1sen!2sid"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></src=>
         style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <div class="map">
         <div class="map-card">
@@ -227,7 +229,7 @@
             </div>
             <p>
                 Jl. Gn. Guntur No.27, Damai, Kecamatan Balikpapan Selatan,
-                 Kota Balikpapan, Kalimantan Timur 76114
+                Kota Balikpapan, Kalimantan Timur 76114
             </p>
         </div>
     </div>
