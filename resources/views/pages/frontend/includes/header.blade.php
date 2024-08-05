@@ -1,4 +1,3 @@
-
 <header>
     <img src="{{ asset('frontend/assets/image/hero_bg.png') }}" />
     <!-- NAVBAR -->

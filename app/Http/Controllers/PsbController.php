@@ -70,7 +70,11 @@ class PsbController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $psb = Psb::findOrFail($id);
+
+        return view('pages.admin.psb.show', compact(
+            'psb'
+        ));
     }
 
     /**
@@ -78,15 +82,66 @@ class PsbController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $psb = Psb::findOrFail($id);
+
+        return view('pages.admin.psb.edit', compact(
+            'psb'
+        ));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, Psb $psb)
     {
-        //
+        $this->validate($request, [
+            'title' => 'required',
+            'image' => 'required|image|mimes:png,jpg,jpeg',
+            'file' => 'required|file|mimes:pdf',
+            'description' => 'required'
+        ]);
+
+        //check jika image kosong
+        if ($request->file('image','file') == null ) {
+
+            //update data tanpa image
+            $psb = Psb::findOrFail($psb->id);
+            $psb->update([
+                'title'         => $request->title,
+                'slug'          => Str::slug($request->title, '-'),
+                'file'          => $request->file,
+                'image'         => $request->image,
+                'description'   => $request->description,
+                
+            ]);
+        } else {
+
+            //hapus image lama
+            Storage::disk('local')->delete('public/psbs/' . basename($psb->image));
+
+            //upload image baru
+            $image = $request->file('image');
+            $image->storeAs('public/psbs/', $image->hashName());
+
+            //update dengan image baru
+            $psb = psb::findOrFail($psb->id);
+            $psb->update([
+                'title'         => $request->title,
+                'slug'          => Str::slug($request->title, '-'),
+                'file'          => $request->file,
+                'image'         => $request->image,
+                'description'   => $request->description,
+                
+            ]);
+        }
+
+        if ($psb) {
+            return redirect()->route('dashboard.psb.index')->with(
+                'success', 'Berhasil Diupdate');
+        } else {
+            return redirect()->route('dashboard.psb.index')->with(
+                'error', 'Gagal Diupdate');
+        }
     }
 
     /**
@@ -95,7 +150,7 @@ class PsbController extends Controller
     public function destroy($id)
     {
         $psb = Psb::findOrFail($id);
-        Storage::disk('local')->delete('public/newss/' . basename($psb->image));
+        Storage::disk('local')->delete('public/psbs/' . basename($psb->image));
         $psb->delete();
 
         return redirect()->route('dashboard.psb.index')->with(

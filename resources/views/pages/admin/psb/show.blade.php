@@ -8,7 +8,7 @@
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{ route('home') }}"><i class="bi bi-house-door"></i></a></li>
-                    <li class="breadcrumb-item"><a href="{{ route('dashboard.news.index') }}">Berita</a></li>
+                    <li class="breadcrumb-item"><a href="{{ route('dashboard.psb.index') }}">Berita</a></li>
                     <li class="breadcrumb-item active">Tampilan</li>
                 </ol>
             </nav>
@@ -26,34 +26,36 @@
             <div class="row g-3 mx-1">
                 <div class="col-md-12">
                     <label for="inputNewsName" class="form-label"><strong>Judul Berita</strong></label>
-                    <input type="text" class="form-control" id="inputNewsName" value="{{ $news->title }}" name="title"
+                    <input type="text" class="form-control" id="inputNewsName" value="{{ $psb->title }}" name="title"
                         readonly>
                 </div>
 
                 <div class="col-md-12">
-                    <label for="inputAuthorName" class="form-label"><strong>Penulis Berita</strong></label>
-                    <input type="text" class="form-control" id="inputAuthorName" value="{{ $news->author }}"
-                        name="author" readonly>
-                </div>
-
-                <div class="col-md-12">
                     <label for="inputImageNews" class="form-label"><strong>Gambar</strong></label>
-                    <img src="{{ $news->image }}" id="inputImageNews" class="w-50 form-control pt-4 pb-4 ps-4 pe-4 rounded"
+                    <img src="{{ $psb->image }}" id="inputImageNews" class="w-50 form-control pt-4 pb-4 ps-4 pe-4 rounded"
                         alt="">
                 </div>
 
                 <div class="col-md-12">
-                    <label class="form-label"><strong>Isi Berita</strong></label>
+                    <label class="form-label"><strong>Description</strong></label>
                     <div class="form-control p-3">
-                        {!! $news->description !!}
+                        {!! $psb->description !!}
                     </div>
                 </div>
 
+                <div class="btn btn-primar btn">
+                    <label class="form-label"><strong>File</strong></label>
+                    <a href="{{ url($psb->file) }}" class="form-control p-3" class="btn btn-primary btn-sm">
+                        Petunjuk pendaftaran klik Disini
+                    </a>
+                </div>
+
+
                 <div class="text-end">
-                    <a href="{{ route('dashboard.news.index') }}" class="btn btn-secondary">
+                    <a href="{{ route('dashboard.psb.index') }}" class="btn btn-secondary">
                         <i class="bi bi-arrow-left"></i> Kembali
                     </a>
-                    <a href="{{ route('dashboard.news.edit', $news->id) }}" class="btn btn-warning">
+                    <a href="{{ route('dashboard.psb.edit', $psb->id) }}" class="btn btn-warning">
                         <i class="bi bi-pencil"></i> Edit
                     </a>
                 </div>

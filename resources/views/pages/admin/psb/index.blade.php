@@ -63,7 +63,7 @@
                                     </td>
                                     <td class="w-25">
                                         <a href="{{ url($row->file) }}" target="_blank" class="btn btn-primary btn-sm">
-                                        {{ $row->file }}</a>
+                                        Klik disini untuk informasi pendaftaran</a>
                                     </td>
                                     <td class="w-25">
                                         <img src="{{ $row->image }}" alt="" class="w-75" srcset="">

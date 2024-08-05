@@ -37,7 +37,7 @@
         </div>
         <div class="footer-registration">
           <h3>Pendaftaran</h3>
-          <a href="/pages/psb-page.html"> PSB </a>
+          <a href="{{ route('psb') }}"> PSB </a>
           <a href="/pages/karir-page.html"> Karir </a>
         </div>
       </div>
