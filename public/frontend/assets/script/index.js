@@ -1,5 +1,26 @@
 let lastScrollTop = 0;
 let isAtTop = true;
+window.onload = init;
+
+function init(){
+  const burger = document.getElementById('burger-icon');
+  const navMobile = document.getElementById('nav-mobile');
+
+  if(burger && navMobile) {
+    burger.addEventListener('click', ({target}) => {
+      if(navMobile.style.display == 'flex') {
+         navMobile.style.display = 'none'
+      } else if(navMobile.style.display == 'none') {
+        navMobile.style.display = 'flex'
+      } else {
+        navMobile.style.display = 'flex'
+      }
+    })
+  }
+
+
+}
+
 
 window.addEventListener(
   "scroll",
@@ -9,6 +30,7 @@ window.addEventListener(
     let navbar = document.querySelector(".navbar");
     let dropdownButton = document.querySelectorAll(".dropdown button");
     let navbarA = this.document.querySelectorAll(".navbar a");
+    
 
     if (scrollTop > lastScrollTop && scrollTop > 50) {
       // Scroll down and not at the top

@@ -1,10 +1,10 @@
 nav {
     top: 0;
-    left: 0;
+    left: 0; 
     right: 0;
     padding: 10px 50px;
     position: fixed;
-    color: white;
+    color: black;
     z-index: 1000;
     transition: all 1;
     background-color: transparent;
@@ -49,12 +49,13 @@ nav {
 
   .menu-icon {
     align-items: center;
-    display: flex;
+    display: none;
   }
 
   .navbar {
     overflow: hidden;
     text-decoration: none;
+    display : flex;
   }
 
   .navbar.scrolled {
@@ -144,6 +145,13 @@ nav {
 
   nav {
     padding: 10px 10px;
+    
+  }
+
+  .navbar {
+    display:none;
+    background-color : white;
+    align-items : center;
   }
 
   .logo-nav h1 {
@@ -152,7 +160,7 @@ nav {
 
   .menu-icon {
     font-size: 28px;
-    display: none;
+    display: flex;
   }
 
   .menu-icon button:hover {
@@ -169,16 +177,18 @@ nav {
 /* NAVBAR */
 .container-nav {
   flex-wrap: wrap;
+  align-item: 
 }
 
 .navbar {
   flex-direction: column;
   width: 100%;
+  background: white;
 }
 
 .menu-icon {
   align-items: center;
-    display: flex;
+  display:
 }
 
 /* END NAVBAR */

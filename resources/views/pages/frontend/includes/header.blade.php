@@ -7,7 +7,13 @@
           <img src="{{ asset('frontend/assets/image/logo_aisba.png') }}" />
           <h1>Al-Imam Islamic School</h1>
         </div>
-        <div class="navbar">
+        {{-- Burger --}}
+        <div class="menu-icon" id="burger-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
+        </div>
+        {{--  --}}
           <a class="home" href="{{route('home')}}">Home</a>
           <div class="dropdown">
             <button class="">
