@@ -184,11 +184,13 @@ nav {
   flex-direction: column;
   width: 100%;
   background: white;
+  align-items:center;
+  display: none;
 }
 
 .menu-icon {
   align-items: center;
-  display:
+  display:flex;
 }
 
 /* END NAVBAR */

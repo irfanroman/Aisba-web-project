@@ -14,6 +14,7 @@
           </svg>
         </div>
         {{--  --}}
+        <div class="navbar" id="nav-mobile">
           <a class="home" href="{{route('home')}}">Home</a>
           <div class="dropdown">
             <button class="">
