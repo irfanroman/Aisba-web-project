@@ -28,6 +28,9 @@
                     <a href="{{ route('dashboard.psb.index') }}">
                         <i class="bi bi-circle"></i><span>PSB</span>
                     </a>
+                    <a href="{{ route('dashboard.prestasi.index') }}">
+                        <i class="bi bi-circle"></i><span>Prestasi</span>
+                    </a>
                 </li>
             </ul>
 

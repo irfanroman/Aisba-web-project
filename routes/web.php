@@ -6,6 +6,7 @@ use App\Http\Controllers\NewsController;
 use App\Http\Controllers\GalleriesController;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\FrontEndController;
+use App\Http\Controllers\PrestasiController;
 use App\Http\Controllers\PsbController;
 use App\Http\Controllers\UserController;
 
@@ -52,6 +53,9 @@ Route::middleware(['auth'])->name('dashboard.')
                 'index', 'show', 'edit', 'update', 'create', 'destroy', 'store'
             ]);
             Route::resource('/psb', PsbController::class)->only([
+                'index', 'show', 'edit', 'update', 'create', 'destroy', 'store'
+            ]);
+            Route::resource('/prestasi', PrestasiController::class)->only([
                 'index', 'show', 'edit', 'update', 'create', 'destroy', 'store'
             ]);
         });
