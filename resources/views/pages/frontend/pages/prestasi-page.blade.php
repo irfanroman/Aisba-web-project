@@ -19,12 +19,12 @@
     <!-- NAVBAR END -->
     <!-- HEADER -->
     <header>
-        <h1>Berita</h1>
+        <h1>Prestasi</h1>
     </header>
     <!-- END HEADER -->
 
     <!-- CONTENT -->
-    @foreach ($lattest_news as $row)
+    @foreach ($lattest_prestasi as $row)
     <div class="content">
         <img src="{{ $row->image }}" alt="" />
         <div class="overlay"></div>
@@ -47,11 +47,11 @@
 
     <!-- LATEST NEWS -->
     <div class="latest-news">
-        <h1><span>Berita</span>Terbaru</h1>
+        <h1><span>Prestasi</span>Terbaru</h1>
         <div class="news-bottom">
             <!-- NEWS CARD 1 -->
-            @foreach ($news as $row)
-                <a href="{{ route('detailNews',  $row->slug) }}" class="news-card">
+            @foreach ($prestasi as $row)
+                <a href="{{ route('detailPrestasi',  $row->slug) }}" class="news-card">
                     <div class="news-transition">
                         <img src="{{ $row->image }}" alt="Image News" />
                         <div class="news-overlay"></div>

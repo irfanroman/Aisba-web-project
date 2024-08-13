@@ -22,7 +22,7 @@
               <!-- <a href="/pages/wali-santri.html">Wali Santri</a> -->
             </div>
           </div>
-          <a class="contact" href="{{ route('galleries') }} ">Gallery</a>
+          <a class="contact" href="{{ route('prestasi') }} ">Prestasi</a>
           <div class="dropdown">
             <button>
               About Us
@@ -40,7 +40,7 @@
             </button>
             <div class="dropdown-content">
               <a href="{{ route('psb') }}">PSB</a>
-              <a href="/pages/karir-page.html">Karir</a>
+              {{-- <a href="/pages/karir-page.html">Karir</a> --}}
             </div>
           </div>
           <a class="contact" href="#footer">Contact</a>

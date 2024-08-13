@@ -237,8 +237,13 @@ header {
     flex-direction: column;
   }
 
+
   .logo-nav h1 {
     display: none;
+  }
+
+  .logo-nav {
+    align-items: baseline;
   }
 
   .menu-icon {
@@ -312,8 +317,8 @@ header {
     color: #000000;
   }
 
-  .logo-nav {
-    align-items: start;
+  .menu-icon {
+
   }
 
   /* END NAVBAR */

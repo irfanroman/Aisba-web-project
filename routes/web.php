@@ -26,10 +26,11 @@ Route::get('/', [App\Http\Controllers\FrontEndController::class, 'index'])->name
 Route::get('/about-us', [FrontEndController::class, 'about'])->name('about');
 Route::get('/visi-misi', [FrontEndController::class, 'visiMisi'])->name('visiMisi');
 Route::get('/news', [FrontEndController::class, 'indexNews'])->name('news');
+Route::get('/prestasi', [FrontEndController::class, 'indexPrestasi'])->name('prestasi');
 Route::get('/psb', [FrontEndController::class, 'indexPsb'])->name('psb');
-Route::get('/gallery', [FrontEndController::class, 'gallery'])->name('galleries');
 Route::get('/event', [FrontEndController::class, 'event'])->name('event');
 Route::get('/detailNews/{slug}', [\App\Http\Controllers\FrontEndController::class, 'detailNews'])->name('detailNews');
+Route::get('/detailPrestasi/{slug}', [\App\Http\Controllers\FrontEndController::class, 'detailPrestasi'])->name('detailPrestasi');
 Route::get('/detailEvent/{slug}', [\App\Http\Controllers\FrontEndController::class, 'detailEvent'])->name('detailEvent');
 
 Auth::routes();

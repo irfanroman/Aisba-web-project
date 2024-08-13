@@ -171,13 +171,9 @@ nav {
   /* END NAVBAR */
 
   }
-
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
 /* NAVBAR */
-.container-nav {
-  flex-wrap: wrap;
-}
 
 .navbar {
   flex-direction: column;

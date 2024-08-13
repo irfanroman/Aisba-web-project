@@ -5,9 +5,11 @@ namespace App\Http\Controllers;
 use App\Models\News;
 use App\Models\Galleries;
 use App\Models\Event;
+use App\Models\Prestasi;
 use App\Models\Psb;
 use Illuminate\Support\Carbon;
 use Illuminate\Http\Request;
+use Laravel\Ui\Presets\Preset;
 
 class FrontEndController extends Controller
 {
@@ -63,12 +65,38 @@ class FrontEndController extends Controller
         ));
     }
 
-    public function gallery()
+    public function indexPrestasi()
     {
-        $galleries    = Galleries::all();
+        $title              = "Baitulquran Aljahra";
+        $prestasi             = Prestasi::latest()->get();
+        $event              = Event::all();
+        $lattest_prestasi       = Prestasi::latest()->limit(1)->get();
 
-        return view('pages.frontend.pages.gallery-page', compact(
-            'galleries'
+        return view('pages.frontend.pages.prestasi-page', compact(
+            'title',
+            'prestasi',
+            'event',
+            'lattest_prestasi'
+        ));
+    }
+
+    public function detailPrestasi($slug)
+    {
+        $prestasi         = Prestasi::where('slug', $slug)->first();
+        $text         = Prestasi::findOrFail($prestasi->id)->slug;
+        $title        = "Berita - $text" ;
+
+        return view('pages.frontend.pages.detail-prestasi', compact(
+            'prestasi', 'text', 'title'
+        ));
+    }
+
+    public function prestasi()
+    {
+        $prestasi    = Prestasi::all();
+
+        return view('pages.frontend.pages.prestasi-page', compact(
+            'prestasi'
         ));
     }
 
