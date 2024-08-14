@@ -6,7 +6,7 @@ header {
     width: auto;
     height: auto;
     color: white;
-    z-index: 1;
+    z-index: 0;
   }
 
   header img {
@@ -22,7 +22,7 @@ header {
     right: 0;
     padding: 10px 50px;
     padding-top: 30px;
-    position: fixed;
+    position: absolute;
     color: white;
     transition: all 1;
     background-color: transparent;
@@ -300,18 +300,27 @@ header {
 
   /* NAVBAR */
 
-  nav {
-    padding: 10px 20px;
-  }
-  
   .navbar {
-    width: 100%;
-    display: none;
-    top: 10%;
+    display: flex;
+    display:none;
+    background-color : white;
+    margin-top: 50px;
+    z-index: 1000000;
+    padding: 50px, 50px;
+    align-items :center;
+    flex-direction: column;
   }
 
-  .navbar a {
+  .navbar a{
     color: #000000;
+  }
+
+  .logo-nav h1 {
+    display: none;
+  }
+
+  .logo-nav {
+    align-items: baseline;
   }
 
   .dropdown button {
@@ -319,7 +328,7 @@ header {
   }
 
   .menu-icon {
-
+    display: flex;
   }
 
   /* END NAVBAR */

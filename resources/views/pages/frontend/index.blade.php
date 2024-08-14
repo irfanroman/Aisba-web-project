@@ -153,12 +153,12 @@
     <!-- NEWS -->
     <div class="news">
         <div class="news-title">
-            <h6>Berita dan Agenda</h6>
-            <h1>Berita <span>Terkini</span></h1>
+            <h6>Berita dan Prestasi</h6>
+            <h1><span>seputar</span> AISBA</h1>
         </div>
         <div class="news-group">
             <!-- NEWS CARD 1 -->
-            @foreach ($lattest_news as $row)
+            {{-- @foreach ($lattest_news as $row)
                 <a href="{{ route('detailNews', $row->slug) }}" class="news-card">
                     <div class="news-card-transition">
                         <img src="{{ $row->image }}" />
@@ -174,16 +174,17 @@
                         </div>
                     </div>
                 </a>
-            @endforeach
+            @endforeach --}}
+
             <!-- NEWS CARD 2 -->
-            {{-- <a href="" class="news-card">
+            <a href="{{ route('news') }}" class="news-card">
           <div class="news-card-transition">
             <img src="" />
             <div class="news-card-item">
               <div class="news-card-item-top">
-                <h6>BQ Al Jahra</h6>
+                <h3>Lihat Berita</h3>
                 <i class="material-icons">arrow_right</i>
-                <p>25 days ago</p>
+                <p>a days ago</p>
               </div>
               <p>
                 Pondok Pesantren Baitul Quran Al Jahra Magetan menggunakan
@@ -194,14 +195,14 @@
           </div>
         </a>
         <!-- NEWS CARD 3 -->
-        <a href="" class="news-card">
+        <a href="{{ route('prestasi') }}" class="news-card">
           <div class="news-card-transition">
             <img src="" />
             <div class="news-card-item">
               <div class="news-card-item-top">
-                <h6>BQ Al Jahra</h6>
+                <h3>Lihat Prestasi</h3>
                 <i class="material-icons">arrow_right</i>
-                <p>25 days ago</p>
+                <p>a days ago</p>
               </div>
               <p>
                 Pondok Pesantren Baitul Quran Al Jahra Magetan menggunakan
@@ -210,7 +211,7 @@
               </p>
             </div>
           </div>
-        </a> --}}
+        </a>
         </div>
     </div>
     <!-- NEWS END -->

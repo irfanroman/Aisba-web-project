@@ -141,6 +141,8 @@ nav {
 
   @media screen and (max-width: 640px) {
 
+  }
+
   /* NAVBAR */
 
   nav {
@@ -170,23 +172,36 @@ nav {
 
   /* END NAVBAR */
 
-  }
+  
 @media screen and (max-width: 768px) {
 
 /* NAVBAR */
 
 .navbar {
   flex-direction: column;
-  background: white;
-  width: 100%;
-  align-items:center;
+  position:absolute;
+  top: 60px;
+  left:0;
+  right:0;
+  background: rgba(255, 255, 255, 0.95);
   display: none;
 }
 
-.menu-icon {
+.navbar a{
+  padding: 10px 20px;
+  width: 100%
+  text-align: left;
+}
+
+.navbar.active{
+  display: flex;
+}
+
+/* .menu-icon {
   align-items: center;
   display:flex;
-}
+  cursor:pointer;
+} */
 
 /* END NAVBAR */
 

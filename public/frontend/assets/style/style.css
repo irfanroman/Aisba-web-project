@@ -750,6 +750,7 @@ iframe {
     width: 100%;
     font-size: 32px;
   }
+}
 
   /* END PROMOSI */
 
@@ -871,6 +872,7 @@ iframe {
 }
 
 @media screen and (max-width: 1024px) {
+
   /* ABOUT US */
 
   .aboutus {
@@ -909,6 +911,8 @@ iframe {
   }
 
   /* END PROGRAM */
+
+ 
 
   /* ALUMNI */
 
@@ -1033,7 +1037,7 @@ iframe {
   }
 
   .news-group {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
   }
 
@@ -1067,5 +1071,4 @@ iframe {
 
   /* END PROMOSI */
 
-}
 }

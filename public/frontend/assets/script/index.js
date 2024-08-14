@@ -34,6 +34,8 @@ window.addEventListener(
     let dropdownButton = document.querySelectorAll(".dropdown button");
     let navbarA = this.document.querySelectorAll(".navbar a");
     
+    
+    
 
     if (scrollTop > lastScrollTop && scrollTop > 50) {
       // Scroll down and not at the top
@@ -42,9 +44,11 @@ window.addEventListener(
       navbarA.forEach((a) => {
         a.classList.add("scrolled");
       });
+
       dropdownButton.forEach((button) => {
         button.classList.add("scrolled");
       });
+      
       isAtTop = false;
     } else if (scrollTop === 0 && !isAtTop) {
       // Scroll to top
