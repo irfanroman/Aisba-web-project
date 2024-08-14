@@ -7,7 +7,7 @@
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href=""><i class="bi bi-house-door"></i></a></li>
-                    <li class="breadcrumb-item active"><a href=""><i>Prstasi</i></a></li>
+                    <li class="breadcrumb-item active"><a href=""><i>Prestasi</i></a></li>
                 </ol>
             </nav>
 
@@ -24,7 +24,7 @@
             <div class="col-12">
                 <form action="" method="get">
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="cari berita"
+                        <input type="text" class="form-control" placeholder="cari Pestasi"
                             aria-describedby="button-addon2" name="keyword">
                         <button class="btn btn-primary" type="submit" id="button-addon2">Cari</button>
                     </div>
@@ -72,15 +72,12 @@
                                         {{ $row->created_at }}
                                     </td>
                                     <td>
-                                        <a href="{{ route('dashboard.news.show', $row->id) }}" class="btn btn-primary m-2">
-                                            <i class="bi bi-eye"></i> show
-                                        </a>
 
-                                        <a href="{{ route('dashboard.news.edit', $row->id) }}" class="btn btn-warning m-2">
+                                        <a href="{{ route('dashboard.prestasi.edit', $row->id) }}" class="btn btn-warning m-2">
                                             <i class="bi bi-pencil"></i> edit
                                         </a>
 
-                                        <form action="{{ route('dashboard.news.destroy', $row->id) }}" method="post">
+                                        <form action="{{ route('dashboard.prestasi.destroy', $row->id) }}" method="post">
                                             @csrf
                                             @method('DELETE')
                                             <button class="btn btn-danger m-2" type="submit" id="" onclick="return confirm('Are you sure?')">

@@ -675,7 +675,6 @@ iframe {
     display: flex;
     flex-direction: column;
     gap: 64px;
-    padding
     align-item: center;
   }
 
@@ -753,7 +752,7 @@ iframe {
   }
 
   /* END PROMOSI */
-}
+
 
 @media screen and (max-width: 768px) {
   /* ABOUT US */
@@ -1068,4 +1067,5 @@ iframe {
 
   /* END PROMOSI */
 
+}
 }
