@@ -182,9 +182,13 @@ footer {
    gap: 50px;
  }
 
+ .desc {
+  display: none;
+ }
 
  .footer-left {
    width: auto;
+   
  }
 
  .footer-right {
@@ -196,7 +200,7 @@ footer {
  }
 
  .footer-bottom p {
-   font-size: 14px;
+   font-size: 9px;
  }
 
  /* END FOOTER */

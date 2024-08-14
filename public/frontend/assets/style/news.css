@@ -248,6 +248,14 @@ header h1 {
     width: auto;
   }
 
+  .content {
+    display: none;
+  }
+
+  nav .navbar {
+    display:none;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -283,10 +291,16 @@ header h1 {
 
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 640px) {
+  
 
   header {
-    padding: 150px 0 50px 100px;
+    padding: 150px 0 50px 30px;
+  }
+
+  .content-top h1 {
+    font-size: 24px;
+    font-weight: 700;
   }
 
   .news-card {

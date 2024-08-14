@@ -1,7 +1,7 @@
 <header>
      <!-- NAVBAR -->
      <nav>
-      <div class="container-nav">
+      <div class="container-nav" >
         <div class="logo-nav">
           <img src="{{ asset('frontend/assets/image/logo_aisba.png') }}" />
           <h1>Al-Imam Islamic School</h1>
@@ -10,7 +10,7 @@
         
         {{--  --}}
         <div class="navbar" id="nav-mobile">
-          <a class="home" href="{{route('home')}}">Home</a>
+          <a class="home" href="{{route('home')}}">Beranda</a>
           <div class="dropdown">
             <button class="">
               Information
@@ -59,7 +59,7 @@
     </nav>
     <!-- NAVBAR END -->
 
-    <img src="{{ asset('frontend/assets/image/hero_bg.png') }}" />
+    <img src="{{ asset('frontend/assets/image/hero_bg.png') }}" /> 
     <!-- NAVBAR -->
     <!-- NAVBAR END -->
 

@@ -5,10 +5,13 @@
           <img src="{{ asset('frontend/assets/image/logo_aisba.png') }}" alt="AISBA" />
           <h1>Al Imam Islamic School</h1>
         </div>
-        <p>
-          <span> Al Imam Islamic School Balikpapan</span>
-          diakronimkan AISBA. Kata inilah yang selama ini populer digunakan baik oleh guru, siswa, maupun orangtua. AISBA berada di bawah naungan Yayasan Al-Imam Madinatul Iman (YAMI) Balikpapan. Tahun 2024 ini usianya kini genap satu dekade.
-        </p>
+        <div class="desc">
+          <p>
+            <span> Al Imam Islamic School Balikpapan</span>
+            diakronimkan AISBA. Kata inilah yang selama ini populer digunakan baik oleh guru, siswa, maupun orangtua. AISBA berada di bawah naungan Yayasan Al-Imam Madinatul Iman (YAMI) Balikpapan. Tahun 2024 ini usianya kini genap satu dekade.
+          </p>
+        </div>
+        
         <div class="footer-email">
           <i class="material-icons">mail</i>
           <p>adminsd@aisba.sch.id</p>

@@ -32,9 +32,9 @@
         <div>
           <img src="{{ $prestasi->image }}" alt="img" width="100"/>
         </div>
-        <div>
+        {{-- <div>
           <h1>{{ $prestasi->title }}</h1>
-        </div>
+        </div> --}}
         <div>
           <p class="text">
             {!! $prestasi->description !!}

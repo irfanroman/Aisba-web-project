@@ -277,7 +277,6 @@
 .alumni-card-item-text p {
   font-size: 16px;
   font-weight: normal;
-  width: 512px;
 }
 
 .alumni-card-item-profile {
@@ -552,7 +551,6 @@ iframe {
 
 .map-card p {
   text-align: start;
-  width: 450px;
   font-size: 14px;
   font-style: normal;
   font-weight: normal;
@@ -674,12 +672,42 @@ iframe {
   /* ALUMNI */
 
   .alumni {
+    display: flex;
+    flex-direction: column;
     gap: 64px;
+    padding
+    align-item: center;
   }
 
   .alumni-title h1 {
     font-size: 32px;
   }
+
+  .alumni-card {
+    display: flex;
+    flex-direction:column;
+    gap: 32px;
+    width: 100%
+  }
+
+  
+.alumni-card-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.alumni-card-item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: justify;
+}
+
+  
 
   /* END ALUMNI */
 
@@ -870,7 +898,7 @@ iframe {
   }
 
   .program-title h1 {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   .program-card {
@@ -886,7 +914,11 @@ iframe {
   /* ALUMNI */
 
   .alumni-title h1 {
-    font-size: 40px;
+    font-size: 36px;
+  }
+
+  .alumni-title p{
+    font-size: 18px;
   }
 
   .alumni-card-item{
@@ -895,7 +927,6 @@ iframe {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
   }
 
   /* END ALUMNI */
@@ -1028,11 +1059,11 @@ iframe {
   }
 
   .promosi-page h1 {
-    font-size: 42px;
+    font-size: 24px;
   }
 
   .promosi-page p {
-    font-size: 24px;
+    font-size: 16px;
   }
 
   /* END PROMOSI */

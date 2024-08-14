@@ -13,7 +13,7 @@
         </div>
         {{--  --}}
         <div class="navbar" id="nav-mobile">
-          <a class="home" href="{{route('home')}}">Home</a>
+          <a class="home" href="{{route('home')}}">Beranda</a>
           <div class="dropdown">
             <button class="">
               Information
@@ -28,7 +28,7 @@
           <a class="contact" href="{{ route('prestasi') }} ">Prestasi</a>
           <div class="dropdown">
             <button>
-              About Us
+              Tentang
               <i class="material-icons">arrow_drop_down</i>
             </button>
             <div class="dropdown-content">

@@ -1,6 +1,7 @@
 /* !!! NAVBAR !!! */
 
 header {
+    background-image: url('frontend/assets/image/hero_bg.png');
     position: relative;
     width: auto;
     height: auto;
@@ -420,17 +421,19 @@ header {
   }
 
   .hero h1 {
-    font-size: 48px;
+    font-size: 36px;
   }
 
   .hero p {
-    font-size: 24px;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
 
   .hero a {
-    font-size: 16px;
-    padding: 20px;
-    margin-top: 20px;
+    font-size: 12px;
+    padding: 12px;
+    margin-top: 14px;
   }
 
   .hero a i {

@@ -36,7 +36,7 @@
                 </p> --}}
             </div>
             <div class="content-bottom">
-                <a href="{{ route('detailNews', $row->slug) }}">
+                <a href="{{ route('detailPrestasi', $row->slug) }}">
                     Selengkapnya
                 </a>
             </div>

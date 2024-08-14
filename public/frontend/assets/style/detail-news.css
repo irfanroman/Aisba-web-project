@@ -160,6 +160,7 @@ h3 {
     display: none;
   }
 
+
   .card {
     min-width: 30%;
   }
@@ -186,8 +187,27 @@ h3 {
     overflow-y: auto;
   }
 
+  .content{
+    display:none;
+  }
+
+  header {
+    padding: 100px 50px 64px;
+  }
+
   .all-other-news::-webkit-scrollbar {
     display: none;
+  }
+
+  header h1{
+
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  h1{
+    font-size: 24px;
+    font-weight: bold;
   }
 
   .card {
@@ -208,6 +228,7 @@ h3 {
     margin: 1rem;
     transition: 0.2s;
   }
+
 
   .all-other-news {
     display: grid;

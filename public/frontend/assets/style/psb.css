@@ -14,7 +14,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  padding: 10px 50px;
+  padding: 10px 10px;
   position: fixed;
   color: #000000;
   z-index: 1000;
@@ -181,7 +181,7 @@ header h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 128px;
+    gap: 36px;
 }
 
 /* Columns */
