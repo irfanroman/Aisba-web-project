@@ -10,7 +10,7 @@
           <a class="home" href="{{route('home')}}">Beranda</a>
           <div class="dropdown">
             <button class="">
-              Information
+              Informasi
               <i class="material-icons">arrow_drop_down</i>
             </button>
             <div class="dropdown-content">
