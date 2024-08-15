@@ -26,6 +26,7 @@ nav {
 
   .nav-menu {
     display: flex;
+
   }
 
   .logo-nav {
@@ -53,6 +54,7 @@ nav {
   }
 
   .navbar {
+    /* flex-direction: row; */
     overflow: hidden;
     text-decoration: none;
     display : flex;
@@ -141,7 +143,7 @@ nav {
 
   @media screen and (max-width: 640px) {
 
-  }
+  
 
   /* NAVBAR */
 
@@ -169,6 +171,8 @@ nav {
     background-color: #ddd;
     color: #000000;
   }
+
+}
 
   /* END NAVBAR */
 
