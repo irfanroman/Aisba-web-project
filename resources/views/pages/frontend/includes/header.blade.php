@@ -6,9 +6,6 @@
           <img src="{{ asset('frontend/assets/image/logo_aisba.png') }}" />
           <h1>Al-Imam Islamic School</h1>
         </div>
-        {{-- Burger --}}
-        
-        {{--  --}}
         <div class="navbar" id="nav-mobile">
           <a class="home" href="{{route('home')}}">Beranda</a>
           <div class="dropdown">

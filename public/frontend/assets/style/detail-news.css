@@ -26,11 +26,14 @@ header h1 {
 
 
 .all {
-  display: flex;
   justify-content: center;
+  display: flex;
   align-items: start;
   flex-direction: column;
-  margin: 140px;
+  margin: 50px 100px;
+  padding: 50px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  gap: 30px;
 }
 
 .news {
@@ -47,8 +50,9 @@ img {
 
 .text {
   text-align: justify;
-  /* width: 1298px; */
+  width: 100px;
   font-size: 20px;
+  white-space: nowrap;
 }
 
 .admin {

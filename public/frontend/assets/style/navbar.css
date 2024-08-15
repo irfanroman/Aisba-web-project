@@ -5,7 +5,7 @@ nav {
     padding: 10px 50px;
     position: fixed;
     color: black;
-    z-index: 1000;
+    z-index: 100000;
     transition: all 1;
     background-color: transparent;
     transition: all 0.5s ease;
@@ -193,7 +193,7 @@ nav {
 
 .navbar a{
   padding: 10px 20px;
-  width: 100%
+  width: 100%;
   text-align: left;
 }
 
@@ -201,16 +201,33 @@ nav {
   display: flex;
 }
 
-/* .menu-icon {
+.menu-icon {
   align-items: center;
   display:flex;
   cursor:pointer;
-} */
+} 
+}
 
-/* END NAVBAR */
-
-/* BURGER */
-
+@media  screen and (max-width: 1024px) {
 
 
+  .navbar {
+    flex-direction: column;
+    position:absolute;
+    top: 60px;
+    left:0;
+    right:0;
+    background: rgba(255, 255, 255, 0.95);
+    display: none;
+    align-items: center;
   }
+
+  .navbar button{
+    align-items: center;
+  }
+
+  .menu-icon{
+    display: flex;
+  }
+  
+}

@@ -3,7 +3,7 @@
 @section('content')
     <!-- !!! ABOUT US !!! -->
     <div class="aboutus">
-        <img src="{{ asset('frontend/assets/image/about-image.png') }}" />
+        <img src="{{ asset('frontend/assets/image/profil_aisba.png') }}" />
         <div class="aboutus-right">
             <h5>Tentang Kami</h5>
             <h6>Al-Imam<span> Islamic School</span></h6>
@@ -35,33 +35,31 @@
         <div class="program-card">
             <!-- PROGRAM CARD 1 -->
             <div class="program-card-item">
-                <img src="{{ asset('frontend/assets/icon/quran-rounded_icon.svg') }}" />
+                <img src="{{ asset('frontend/assets/icon/logo-asiba.svg') }}" />
                 <h6>Tahfidz Al-Qur'an</h6>
                 <p>
-                    Program ini bertujuan untuk mencetak para hafidz dan hafidzah
-                    Al-Qur'an 30 juz. Santri diwajibkan untuk menghafal Al-Qur'an setiap
-                    hari dan mengikuti program pembinaan tahfidz yang intensif.
+                    Siswa AISBA ditargetkan
+                    untuk mencapai hafalan
+                    minimal 5juz untuk SD, dan
+                    2 juz untuk SMP
                 </p>
             </div>
             <!-- PROGRAM CARD 2 -->
             <div class="program-card-item">
-                <img src="{{ asset('frontend/assets/icon/quran-rounded_icon.svg') }}" />
-                <h6>Takhassus Tahfidz Quran</h6>
+                <img src="{{ asset('frontend/assets/icon/lgoo_asiba_2.svg') }}" />
+                <h6>Matematika dan Sains</h6>
                 <p>
-                    Program ini diperuntukkan bagi santri yang ingin fokus menghafal
-                    Al-Qur'an dalam waktu singkat, yaitu selama 3 bulan. Santri akan
-                    mengikuti program tahfidz yang lebih intensif dengan target hafalan
-                    minimal 15 juz.
+                    Eksakta sangat diperlukan untuk memperkuat kajian, dan
+                    bukti-bukti empirik tentang
+                    ilmu pengetahuan.
                 </p>
             </div>
             <!-- PROGRAM CARD 3 -->
             <div class="program-card-item">
-                <img src="{{ asset('frontend/assets/icon/quran-rounded_icon.svg') }}" />
-                <h6>Kelas Tahfidz Quran Online</h6>
+                <img src="{{ asset('frontend/assets/icon/loho_asiba_3.svg') }}" />
+                <h6>Bahasa Asing</h6>
                 <p>
-                    Program ini diperuntukkan bagi bagi yang ingin menghafal Al-Qur'an
-                    secara online. Santri akan mengikuti program tahfidz online dengan
-                    menggunakan platform Zoom dan Google Meet.
+                    Untuk menjawab tantangan global siswa diajarkan untuk menguasai bahasa asing seperti arab atau inggris
                 </p>
             </div>
         </div>
@@ -178,40 +176,40 @@
 
             <!-- NEWS CARD 2 -->
             <a href="{{ route('news') }}" class="news-card">
-          <div class="news-card-transition">
-            <img src="" />
-            <div class="news-card-item">
-              <div class="news-card-item-top">
-                <h3>Lihat Berita</h3>
-                <i class="material-icons">arrow_right</i>
-                <p>a days ago</p>
-              </div>
-              <p>
-                Pondok Pesantren Baitul Quran Al Jahra Magetan menggunakan
-                kurikulum pendidikan yang memadukan pendidikan agama dan
-                pendidikan umum.
-              </p>
-            </div>
-          </div>
-        </a>
-        <!-- NEWS CARD 3 -->
-        <a href="{{ route('prestasi') }}" class="news-card">
-          <div class="news-card-transition">
-            <img src="" />
-            <div class="news-card-item">
-              <div class="news-card-item-top">
-                <h3>Lihat Prestasi</h3>
-                <i class="material-icons">arrow_right</i>
-                <p>a days ago</p>
-              </div>
-              <p>
-                Pondok Pesantren Baitul Quran Al Jahra Magetan menggunakan
-                kurikulum pendidikan yang memadukan pendidikan agama dan
-                pendidikan umum.
-              </p>
-            </div>
-          </div>
-        </a>
+                <div class="news-card-transition">
+                    <img src="{{ asset('frontend/assets/image/aisba_news.png') }}" />
+                    <div class="news-card-item">
+                        <div class="news-card-item-top">
+                            <h3>Lihat Berita</h3>
+                            <i class="material-icons">arrow_right</i>
+                            <p>a days ago</p>
+                        </div>
+                        <p>
+                            Pondok Pesantren Baitul Quran Al Jahra Magetan menggunakan
+                            kurikulum pendidikan yang memadukan pendidikan agama dan
+                            pendidikan umum.
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <!-- NEWS CARD 3 -->
+            <a href="{{ route('prestasi') }}" class="news-card">
+                <div class="news-card-transition">
+                    <img src="{{ asset('frontend/assets/image/prestasi_aisba.jpg') }}" />
+                    <div class="news-card-item">
+                        <div class="news-card-item-top">
+                            <h3>Lihat Prestasi</h3>
+                            <i class="material-icons">arrow_right</i>
+                            <p>a days ago</p>
+                        </div>
+                        <p>
+                            Pondok Pesantren Baitul Quran Al Jahra Magetan menggunakan
+                            kurikulum pendidikan yang memadukan pendidikan agama dan
+                            pendidikan umum.
+                        </p>
+                    </div>
+                </div>
+            </a>
         </div>
     </div>
     <!-- NEWS END -->
@@ -249,5 +247,6 @@
             <a href="{{ route('psb') }}">Daftar Sekarang</a>
         </div>
     </div>
+
     <!-- PROMOSI END -->
 @endsection
