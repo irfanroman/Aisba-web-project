@@ -2,7 +2,11 @@
    <nav>
       <div class="container-nav">
         <div class="logo-nav">
-          <img src="{{ asset('frontend/assets/image/logo_aisba.png') }}" />
+
+          <a href="{{route('home')}}">
+            <img src="{{ asset('frontend/assets/image/logo_aisba.png') }}" />
+          </a>
+
           <h1>Al-Imam Islamic School</h1>
         </div>
         {{-- Burger --}}
