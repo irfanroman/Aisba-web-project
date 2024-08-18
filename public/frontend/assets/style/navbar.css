@@ -194,7 +194,6 @@ nav {
 .navbar a{
   padding: 10px 20px;
   width: 100%;
-  text-align: left;
 }
 
 .navbar.active{
