@@ -31,9 +31,9 @@
         <div class="content-text">
             <div class="content-top">
                 <h1>{{ $row->title }}</h1>
-                {{-- <p>
+                <p>
                     {!! Str::words($row->description, '5') !!}
-                </p> --}}
+                </p>
             </div>
             <div class="content-bottom">
                 <a href="{{ route('detailNews', $row->slug) }}">
@@ -59,6 +59,9 @@
                             <h3>
                                 {{ $row->title }}
                             </h3>
+                            <p>
+                                {!! Str::words($row->description, '5') !!}
+                            </p>
                             <div class="news-status">
                                 <h6>{{ $row->author }}</h6>
                                 <i class="material-icons">arrow_right</i>
