@@ -25,7 +25,7 @@
 
     <!-- HEADER -->
     <header>
-      <h1>Profil Pesantren</h1>
+      <h1>Profil Sekolah</h1>
     </header>
     <!-- END HEADER -->
 

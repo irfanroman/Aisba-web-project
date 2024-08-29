@@ -185,7 +185,7 @@
                             <p>a days ago</p>
                         </div>
                         <p>
-                            Pondok Pesantren Baitul Quran Al Jahra Magetan menggunakan
+                            Sekolah Al-Imam Islamic School menggunakan
                             kurikulum pendidikan yang memadukan pendidikan agama dan
                             pendidikan umum.
                         </p>
@@ -203,7 +203,7 @@
                             <p>a days ago</p>
                         </div>
                         <p>
-                            Pondok Pesantren Baitul Quran Al Jahra Magetan menggunakan
+                            Sekolah Al-Imam Islamic School menggunakan
                             kurikulum pendidikan yang memadukan pendidikan agama dan
                             pendidikan umum.
                         </p>

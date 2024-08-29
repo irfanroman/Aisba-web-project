@@ -1,14 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PsbController;
+use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\NewsController;
-use App\Http\Controllers\GalleriesController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\FrontEndController;
 use App\Http\Controllers\PrestasiController;
-use App\Http\Controllers\PsbController;
-use App\Http\Controllers\UserController;
+use App\Http\Controllers\GalleriesController;
 
 /*{{  }}
 |--------------------------------------------------------------------------
@@ -61,3 +62,30 @@ Route::middleware(['auth'])->name('dashboard.')
             ]);
         });
     });
+
+    Route::get('/storage-link', function() {
+        Artisan::call('storage:link');
+        return 'success';
+        return 'storage link succses';
+    });
+    Route::get('/config-cache', function() {
+        Artisan::call('config:cache');
+        return 'config cache succses';
+    });
+    Route::get('/config-clear', function() {
+        Artisan::call('config:clear');
+        return 'config clear succses';
+    });
+    Route::get('/view-cache', function() {
+        Artisan::call('view:cache');
+        return 'view cache succses';
+    });
+    Route::get('/view-clear', function() {
+        Artisan::call('view:clear');
+        return 'view clear succses';
+    });
+    Route::get('/route-clear', function() {
+        Artisan::call('route:clear');
+        return 'route clear succses';
+    });
+    

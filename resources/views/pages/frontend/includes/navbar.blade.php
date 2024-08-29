@@ -36,8 +36,8 @@
               <i class="material-icons">arrow_drop_down</i>
             </button>
             <div class="dropdown-content">
-              <a href="{{ route('about') }}">Profil Pesantren</a>
-              <a href="{{ route('visiMisi') }}">Visi Misi Pesantren</a>
+              <a href="{{ route('about') }}">Profil Sekolah</a>
+              <a href="{{ route('visiMisi') }}">Visi Misi Sekolah</a>
             </div>
           </div>
           <a class="contact" href="{{ route('psb') }} ">PSB</a>

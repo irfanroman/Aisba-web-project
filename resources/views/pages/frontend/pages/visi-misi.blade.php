@@ -21,7 +21,7 @@
     <!-- NAVBAR END -->
     <!-- HEADER -->
     <header>
-      <h1>Visi Misi Pesantren</h1>
+      <h1>Visi Misi Sekolah</h1>
     </header>
     <!-- END HEADER -->
 

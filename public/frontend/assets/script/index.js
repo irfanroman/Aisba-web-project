@@ -9,13 +9,13 @@ function init(){
   if(burger && navMobile) {
     burger.addEventListener('click', ({target}) => {
       if(navMobile.style.display == 'flex') {
-         navMobile.style.display = 'none'
+         navMobile.style.display = 'none';
       } else if(navMobile.style.display == 'none') {
-        navMobile.style.display = 'flex'
+        navMobile.style.display = 'flex';
       } else {
-        navMobile.style.display = 'flex'
+        navMobile.style.display = 'flex';
       }
-    })
+    });
   }
 
   

@@ -17,20 +17,14 @@ class AdminSeeder extends Seeder
     {
         DB::table('users')->insert([
         'name' => 'AISBA Admin 1',
-        'email' => 'admin1@gmail.com',
-            'password' => Hash::make('12345678'),
+        'email' => 'admin2@gmail.com',
+            'password' => Hash::make('*au#;}a-isba315'),
             'roles' => 'ADMIN'
         ]);
         DB::table('users')->insert([
         'name' => 'AISBA Admin 2',
-        'email' => 'admin2@gmail.com',
-            'password' => Hash::make('admin@aisba286'),
-            'roles' => 'ADMIN'
-        ]);
-        DB::table('users')->insert([
-        'name' => 'AISBA Admin 3',
         'email' => 'admin3@gmail.com',
-            'password' => Hash::make('admin@contentAisba477'),
+            'password' => Hash::make('admin@conte#ntAisba477'),
             'roles' => 'ADMIN'
         ]);
     }

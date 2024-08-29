@@ -32,7 +32,7 @@ header {
   nav.scrolled {
     background-color: rgba(255, 255, 255, 0.95);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #000000;
+    color: black;
     transition: background-color 0.5s ease, color 0.5s ease;
   }
 
@@ -75,7 +75,7 @@ header {
   }
 
   .navbar.scrolled {
-    color: #000000;
+    color: black;
   }
 
   .navbar a {
@@ -90,7 +90,7 @@ header {
   }
 
   .navbar.scrolled a {
-    color: #000000;
+    color: black;
   }
 
   .navbar a:hover {

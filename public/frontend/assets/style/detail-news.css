@@ -48,14 +48,9 @@ img {
   border-radius: 5px;
 }
 
-.text {
-  text-align: justify;
-  width: 100px;
-  font-size: 20px;
-  white-space: nowrap;
-}
 
-.admin {
+
+/* .admin {
   margin-top: 40px;
 }
 
@@ -65,7 +60,7 @@ img {
 
 .admin p {
   font-size: 14px;
-}
+} */
 
 /* another news */
 
@@ -120,7 +115,7 @@ h3 {
   margin: 30px 8px 10px 8px;
 }
 
-.card .desc {
+/* .card .desc {
   font-weight: 500;
   font-size: 16;
   margin: 0px 10px 0px 10px;
@@ -145,7 +140,7 @@ h3 {
 .card-text p {
   font-size: 12px;
   margin: 0px 5px 0px 5px;
-}
+} */
 
 /* laprop size */
 @media (max-width: 1024px) {
