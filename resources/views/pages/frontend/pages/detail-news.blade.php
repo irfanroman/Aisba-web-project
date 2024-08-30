@@ -35,9 +35,9 @@
         {{-- <div>  
           <h1>{{ $news->title }}</h1>
         </div> --}}
-        <div class="text">
+        <div class="detail-agenda-text">
             <p>
-            {!! ($news->description) !!}
+            {!! $news->description !!}
           </p>
         </div>
       </div>
